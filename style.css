@@ -1,0 +1,214 @@
+/* Hello. How are you? I hope you are well. */
+/* MOBILE SETTINGS */
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+   
+      div.leftnav {
+        width: 100%;
+      }
+  }
+
+
+* 
+{ 
+     padding: 0;
+}
+
+ * {
+   scrollbar-width: none;
+
+}
+
+/* LINKS */
+a {
+
+    text-decoration: none;
+    color: #fffcd7;
+
+  }
+
+a:hover {
+    color: #221f20;
+    font-style: italic;
+
+  }
+  
+
+body {
+    background-color: #231f20;
+    font-size: 16px;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+.leftnav {
+    position: absolute;         
+    height: 100vh;
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fffcd7;
+    color: #221f20;
+    overflow-x: hidden;
+    align-items: center;
+    font-size: 16px;
+    
+  }
+
+  .leftnav a.class1 {
+    padding: 6px 8px 6px 16px;
+              text-decoration: none;
+              font-size: 20px;
+              color: #221f20;
+              display: block;
+            }
+            
+            .leftnav a.class1:hover {
+              color: #E0115F;
+              font-style: italic;
+            }
+        
+  .leftnav a.class2 {
+                padding: 6px 8px 6px 16px;
+                          text-decoration: none;
+                          font-size: 20px;
+                          color: #221f20;
+                          display: block;
+                        }
+                        
+                        .leftnav a.class2:hover {
+                          color: #bf8bff;
+                          font-style: italic;
+                        }
+
+    .leftnav a.class3 {
+                            padding: 6px 8px 6px 16px;
+                                      text-decoration: none;
+                                      font-size: 20px;
+                                      color: #221f20;
+                                      display: block;
+                                    }
+                                    
+                                    .leftnav a.class3:hover {
+                                      color: #89CFF0;
+                                      font-style: italic;
+                                    }
+
+    .leftnav a.class4 {
+                                        padding: 6px 8px 6px 16px;
+                                                  text-decoration: none;
+                                                  font-size: 20px;
+                                                  color: #221f20;
+                                                  display: block;
+                                                }
+                                                
+                                                .leftnav a.class4:hover {
+                                                  color: #FF69B4;
+                                                  font-style: italic;
+                                                }
+
+    .leftnav a.class5 {
+                                                    padding: 6px 8px 6px 16px;
+                                                              text-decoration: none;
+                                                              font-size: 20px;
+                                                              color: #221f20;
+                                                              display: block;
+                                                            }
+                                                            
+                                                            .leftnav a.class5:hover {
+                                                              color: #f28500;
+                                                              font-style: italic;
+                                                            }
+              
+  
+  .left-column-block {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-right: 0px;
+  } 
+
+  .left-column-block.top {
+    padding: 30px
+    
+  }
+
+  .left-column-block.middle {
+  
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+   
+  }
+
+  .left-column-block.bottom {
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 30px
+    
+  }
+  
+
+  
+
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+
+
+ .mainimage {
+    margin-left: 225px;
+        /* The image used */
+        background-image: url("wizard10.png");
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+ 
+      .bottomright {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        font-size: 18px;
+      }
+      
+    .animate {
+        animation:opac 4s}@keyframes opac{from{opacity:0} to{opacity:1}
+    
+    }
+
+    .button {
+        background-color: #50C878; /* Emerald green */
+        color: #fffcd7;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+      
+    
