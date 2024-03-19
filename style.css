@@ -8,13 +8,14 @@ only in dying life:
 bright the hawk's flight 
 on the empty sky.”
 
+- A Wizard of EarthCSS
+
 */
 
 /* MOBILE SETTINGS */
 @media only screen and (max-width: 600px) {
    
       div.leftnav {
-        height: 100%;
         width: 100%;
       
       }
@@ -194,6 +195,7 @@ body {
     margin-left: 225px;
         /* The image used */
         background-image: url("wizard10.png");
+        max-width: 100%;
       
         /* Full height */
         height: 100%; 
