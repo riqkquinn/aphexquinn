@@ -11,6 +11,16 @@
 
       }
 
+      div.left-column-block.middle {
+
+        
+        justify-content: space-evenly;
+
+      }
+
+    
+
+
       div.mainimage {
 
         display: none;
