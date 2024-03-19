@@ -1,40 +1,35 @@
-/* Hello. How are you? I hope you are well. */
+/* Hello. How are you? */
+
+/* 
+
+“Only in silence the word, 
+only in dark the light, 
+only in dying life: 
+bright the hawk's flight 
+on the empty sky.”
+
+*/
+
 /* MOBILE SETTINGS */
-/* If the screen size is 600px wide or less, hide the element */
 @media only screen and (max-width: 600px) {
    
       div.leftnav {
         height: 844px;
         width: 100%;
-        
-
-
+      
       }
-
-      div.left-column-block.middle {
-
-        
-        justify-content: space-evenly;
-
-      }
-
     
-
-
-      div.mainimage {
-
-        display: none;
-
-      }
-
-      div.button {
-
-        display: none;
+      div.left-column-block.bottom {
+       
+        height: 20vh;
+        justify-content: end;
+        padding-bottom: 250px;
 
       }
   }
 
 
+/* SITEWIDE SETTINGS */
 * 
 { 
      padding: 0;
@@ -45,7 +40,7 @@
 
 }
 
-/* LINKS */
+/* LINKS SETTINGS */
 a {
 
     text-decoration: none;
@@ -58,7 +53,8 @@ a:hover {
     font-style: italic;
 
   }
-  
+
+/* BODY SETTINGS */
 
 body {
     background-color: #231f20;
@@ -68,6 +64,8 @@ body {
   img {
     border-radius: 50%;
   }
+
+  /* NAVBAR SETTINGS */
 
 .leftnav {
     position: absolute;         
@@ -184,15 +182,13 @@ body {
   }
   
 
-  
+  /* BODY SETTINGS */
 
   
   body, html {
     height: 100%;
     margin: 0;
   }
-  
-
 
  .mainimage {
     margin-left: 225px;
